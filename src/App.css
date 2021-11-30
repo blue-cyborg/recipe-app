@@ -33,3 +33,8 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
+
+.title {
+  margin: 0;
+  background: coral;
+}
