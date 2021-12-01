@@ -3,7 +3,6 @@ import Recipe from "./Recipe";
 import './App.css';
 
 const App = () => {
-  
   const APP_ID = 'aa13ae9e';
   const APP_KEY = '06da79de7875a7e808b4a5013971b8a0';
 
@@ -40,7 +39,7 @@ const App = () => {
       <h2>Find ideas for dinner here!</h2>
       </div>
       <form onSubmit={getSearch} className="search-form">
-        <input className="search-bar" type="text" value={search} onChange={updateSearch} />
+        <input className="search-bar" type="text" placeholder="enter an ingredient or dish" value={search} onChange={updateSearch} />
         <button
         className="search-button" 
         type="submit">

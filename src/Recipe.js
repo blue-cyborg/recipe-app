@@ -13,7 +13,7 @@ const Recipe = ({title, image, ingredients, url}) => {
             ))}
         </ol>
         <p>Want to make it tonight? Then visit:</p> 
-        <p><a href={url} target="_blank">{url}</a></p>
+        <p><a href={url} target="_blank" rel="noreferrer">{url}</a></p>
         <img className={style.image}src={image} alt=""/>
     </div>
     );
