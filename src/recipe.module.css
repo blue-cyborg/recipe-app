@@ -1,3 +1,7 @@
+ul {
+  text-align: left;
+}
+
 .recipe {
   border-radius: 10px;
   box-shadow: 0px 5px 20px rgb(71, 71, 71);
@@ -8,6 +12,7 @@
   background: white;
   align-items: center;
   min-width: 40%;
+  padding: 15px;
 }
 
 .image {
